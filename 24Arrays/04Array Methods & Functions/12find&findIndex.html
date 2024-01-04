@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    // find
+
+    var ages = [10,18,11,20];
+    document.write(ages + "<br><br>");
+
+    var b = ages.find(checkAdult);
+    document.write(b + "<br><br>");
+
+    function checkAdult(age){
+        return age >= 18;
+    }
+
+    // findindex
+
+    var ages = [10,18,11,20];
+    document.write(ages + "<br><br>");
+
+    var b = ages.findIndex(checkAdult);
+    document.write(b + "<br><br>");
+
+    function checkAdult(age){
+        return age >= 18;
+    }
+</script>
+</html>
